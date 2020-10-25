@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, EventEmitter, OnInit, Output, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-topbar',
@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopbarComponent implements OnInit {
 
+  @Output() menuButtonClick: EventEmitter<any> = new EventEmitter();
+  @ViewChild('topbarMenu') topbarMenu: ElementRef;
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  onMenuButtonClick(event: Event) {
+    this.menuButtonClick.emit();
+    event.preventDefault();
+  }
 }

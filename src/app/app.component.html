@@ -1,7 +1,7 @@
 <div class="layout-wrapper">
-  <app-topbar></app-topbar>
-  <app-sidebar></app-sidebar>
-  <div class="layout-mask"></div>
+  <app-topbar (menuButtonClick)="onMenuButtonClick()"></app-topbar>
+  <app-sidebar [active]="menuActive"></app-sidebar>
+  <div class="layout-mask" [ngClass]="{'layout-mask-active': menuActive}" (click)="onMaskClick()"></div>
 
   <div class="layout-content">
     <router-outlet></router-outlet>

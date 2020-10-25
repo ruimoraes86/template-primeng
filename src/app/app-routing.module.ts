@@ -1,12 +1,13 @@
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { HomeComponent } from './pages/home/home.component';
+import { HelpComponent } from './pages/help/help.component';
 
 @NgModule({
     imports: [
         RouterModule.forRoot([
             {path: '', component: HomeComponent},
-            // {path: 'setup', loadChildren: () => import('./components/setup/setup.module').then(m => m.SetupModule)},
+            {path: 'help', component: HelpComponent}
         ], {scrollPositionRestoration: 'enabled'})
     ],
     exports: [RouterModule]

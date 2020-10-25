@@ -1,3 +1,8 @@
 <div class="layout-topbar">
-HEADER
+  <a class="menu-button" (click)="onMenuButtonClick($event)">
+    <i class="pi pi-bars"></i>
+  </a>
+  <a [routerLink]="['/']" class="logo">
+    <img alt="logo" src="assets/images/primeng-logo-light.svg" />
+  </a>
 </div>

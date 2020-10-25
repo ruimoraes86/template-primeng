@@ -1,5 +1,17 @@
-<div class="layout-sidebar">
+<div class="layout-sidebar" [ngClass]="{'active': active}">
   <div class="layout-menu">
-      <div class="menu-category">MENU</div>
+    <div class="p-d-flex p-flex-column">
+      <div>
+        <p-tree [value]="files" [filter]="true" selectionMode="single" [(selection)]="selectedFile"
+          (onNodeSelect)="nodeSelect($event)" (onFilter)="onFilter($event)" styleClass="treeMenu">
+          <ng-template let-node pTemplate="tela">
+            {{node.label}}
+          </ng-template>
+          <ng-template let-node pTemplate="default">
+            <b>{{node.label | uppercase }}</b>
+          </ng-template>
+        </p-tree>
+      </div>
+    </div>
   </div>
 </div>
