@@ -8,7 +8,8 @@ import { MenuItem } from 'primeng/api';
   styleUrls: ['./help.component.scss']
 })
 export class HelpComponent implements OnInit {
-  tela: any;
+  label: string;
+  sigla: string;
 
   items: MenuItem[] = [];
   home: MenuItem;
@@ -19,7 +20,8 @@ export class HelpComponent implements OnInit {
   ngOnInit(): void {
     this.route.queryParams
       .subscribe(params => {
-        this.tela = params.tela;
+        this.label = params.label;
+        this.sigla = params.sigla;
         this.setBreadcumbItem(params.tree);
       }
       );

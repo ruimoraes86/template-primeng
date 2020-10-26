@@ -1,7 +1,7 @@
 .layout-topbar {
-    background-color: var(--surface-a);
+    background-color: #1d3557;
     padding: 0;
-    height: 70px;
+    height:60px;
     position: fixed;
     top: 0;
     left: 0;
@@ -34,7 +34,7 @@
 
     .logo {
         img {
-            width: 180px;
+            width: 230px;
         }
 
         &:focus {

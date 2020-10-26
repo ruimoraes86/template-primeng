@@ -5,7 +5,7 @@
         <p-tree [value]="files" [filter]="true" selectionMode="single" [(selection)]="selectedFile"
           (onNodeSelect)="nodeSelect($event)" (onFilter)="onFilter($event)" styleClass="treeMenu">
           <ng-template let-node pTemplate="tela">
-            {{node.label}}
+            {{node.label}} ({{node.data}})
           </ng-template>
           <ng-template let-node pTemplate="default">
             <b>{{node.label | uppercase }}</b>

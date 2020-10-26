@@ -25,12 +25,10 @@ export class SidebarComponent implements OnInit {
   }
 
   nodeSelect(event) {
-    if (event.node.type == "tela") {
+    if (event.node.type === 'tela') {
       this.tree = [];
-
       this.addItemToTree(event.node);
-
-      this.router.navigate(['/help'], { queryParams: { tela: event.node.label, tree: this.tree } });
+      this.router.navigate(['/help'], { queryParams: { sigla: event.node.data, label: event.node.label, tree: this.tree } });
     }
   }
 

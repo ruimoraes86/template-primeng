@@ -1,0 +1,236 @@
+{
+  "data":
+  [
+      {
+          "label": "Administrativo",
+          "data": "Administrativo Folder",
+
+
+
+          "children": [{
+                  "label": "Auditoria",
+                  "data": "Auditoria Folder",
+
+
+
+                  "children": [{
+                    "label": "Cadastro",
+                    "data": "Cadastro Folder",
+
+
+
+                    "children": [
+                      {"label": "Teste 1", "data": "cADAT100", "type": "tela"},
+                      {"label": "Teste 2", "data": "cADAT101", "type": "tela"},
+                      {"label": "Teste 3", "data": "cADAT102", "type": "tela"},
+                      {"label": "Teste 4", "data": "cADAT103", "type": "tela"}
+                    ]
+                  },
+                  {
+                    "label": "Movimento",
+                    "data": "Movimento Folder",
+                    "children": [
+                      {"label": "Teste 1", "data": "cADAT201", "type": "tela"},
+                      {"label": "Teste 2", "data": "cADAT202", "type": "tela"},
+                      {"label": "Teste 3", "data": "cADAT203", "type": "tela"},
+                      {"label": "Teste 4", "data": "cADAT204", "type": "tela"}
+                    ]
+                  },
+                  {
+                    "label": "Consulta",
+                    "data": "Consulta Folder",
+
+
+
+                    "children": [
+                      {"label": "Teste 1", "data": "cADAT301", "type": "tela"},
+                      {"label": "Teste 2", "data": "cADAT302", "type": "tela"},
+                      {"label": "Teste 3", "data": "cADAT303", "type": "tela"},
+                      {"label": "Teste 4", "data": "cADAT304", "type": "tela"}
+                    ]
+                  }]
+              },
+              {
+                "label": "Contabilidade",
+                "data": "Contabilidade Folder",
+                "children": [{
+                  "label": "Cadastro",
+                  "data": "Cadastro Folder",
+                  "children": [
+                    {"label": "Teste 1", "data": "assets/md/tela1.md", "type": "tela"},
+                    {"label": "Teste 2", "data": "assets/md/tela2.md", "type": "tela"},
+                    {"label": "Teste 3", "data": "assets/md/tela2.md", "type": "tela"},
+                    {"label": "Teste 4", "data": "assets/md/tela2.md", "type": "tela"}
+                  ]
+                },
+                {
+                  "label": "Movimento",
+                  "data": "Movimento Folder",
+                  "children": [
+                    {"label": "cADCT200 - Teste 1", "data": "assets/md/tela1.md", "type":"tela"},
+                    {"label": "cADCT201 - Teste 2", "data": "assets/md/tela2.md", "type":"tela"},
+                    {"label": "cADCT202 - Teste 3", "data": "assets/md/tela2.md", "type":"tela"},
+                    {"label": "cADCT203 - Teste 4", "data": "assets/md/tela2.md", "type":"tela"}
+                  ]
+                },
+                {
+                  "label": "Consulta",
+                  "data": "Consulta Folder",
+                  "children": [
+                    {"label": "cADCT300 - Teste 1", "data": "assets/md/tela1.md", "type":"tela"},
+                    {"label": "cADCT301 - Teste 2", "data": "assets/md/tela2.md", "type":"tela"},
+                    {"label": "cADCT302 - Teste 3", "data": "assets/md/tela2.md", "type":"tela"},
+                    {"label": "cADCT303 - Teste 4", "data": "assets/md/tela2.md", "type":"tela"}
+                  ]
+                }]
+            }]
+      },
+      {
+        "label": "Comercial",
+        "data": "Comercial Folder",
+        "children": [{
+                "label": "Suprimentos",
+                "data": "Suprimentos Folder",
+
+
+
+                "children": [{
+                  "label": "Cadastro",
+                  "data": "Cadastro Folder",
+                  "children": [
+                    {"label": "cCOSP100 - Teste 1", "data": "assets/md/tela1.md", "type":"tela"},
+                    {"label": "cCOSP101 - Teste 2", "data": "assets/md/tela2.md", "type":"tela"},
+                    {"label": "cCOSP102 - Teste 3", "data": "assets/md/tela2.md", "type":"tela"},
+                    {"label": "cCOSP103 - Teste 4", "data": "assets/md/tela2.md", "type":"tela"}
+                  ]
+                },
+                {
+                  "label": "Movimento",
+                  "data": "Movimento Folder",
+                  "children": [
+                    {"label": "cCOSP200 - Teste 1", "data": "assets/md/tela1.md", "type":"tela"},
+                    {"label": "cCOSP201 - Teste 2", "data": "assets/md/tela2.md", "type":"tela"},
+                    {"label": "cCOSP202 - Teste 3", "data": "assets/md/tela2.md", "type":"tela"},
+                    {"label": "cCOSP203 - Teste 4", "data": "assets/md/tela2.md", "type":"tela"}
+                  ]
+                },
+                {
+                  "label": "Consulta",
+                  "data": "Consulta Folder",
+                  "children": [
+                    {"label": "cCOSP300 - Teste 1", "data": "assets/md/tela1.md", "type":"tela"},
+                    {"label": "cCOSP301 - Teste 2", "data": "assets/md/tela2.md", "type":"tela"},
+                    {"label": "cCOSP302 - Teste 3", "data": "assets/md/tela2.md", "type":"tela"},
+                    {"label": "cCOSP303 - Teste 4", "data": "assets/md/tela2.md", "type":"tela"}
+                  ]
+                }]
+            },
+            {
+              "label": "Pedido",
+              "data": "Contabilidade Folder",
+              "children": [{
+                "label": "Cadastro",
+                "data": "Cadastro Folder",
+                "children": [
+                  {"label": "cCOPD100 - Teste 1", "data": "assets/md/tela1.md", "type":"tela"},
+                  {"label": "cCOPD101 - Teste 2", "data": "assets/md/tela2.md", "type":"tela"},
+                  {"label": "cCOPD102 - Teste 3", "data": "assets/md/tela2.md", "type":"tela"},
+                  {"label": "cCOPD103 - Teste 4", "data": "assets/md/tela2.md", "type":"tela"}
+                ]
+              },
+              {
+                "label": "Movimento",
+                "data": "Movimento Folder",
+                "children": [
+                  {"label": "cCOPD200 - Teste 1", "data": "assets/md/tela1.md", "type":"tela"},
+                  {"label": "cCOPD201 - Teste 2", "data": "assets/md/tela2.md", "type":"tela"},
+                  {"label": "cCOPD202 - Teste 3", "data": "assets/md/tela2.md", "type":"tela"},
+                  {"label": "cCOPD203 - Teste 4", "data": "assets/md/tela2.md", "type":"tela"}
+                ]
+              },
+              {
+                "label": "Consulta",
+                "data": "Consulta Folder",
+                "children": [
+                  {"label": "cCOPD300 - Teste 1", "data": "assets/md/tela1.md", "type":"tela"},
+                  {"label": "cCOPD301 - Teste 2", "data": "assets/md/tela2.md", "type":"tela"},
+                  {"label": "cCOPD302 - Teste 3", "data": "assets/md/tela2.md", "type":"tela"},
+                  {"label": "cCOPD303 - Teste 4", "data": "assets/md/tela2.md", "type":"tela"}
+                ]
+              }]
+          }]
+    },
+    {
+      "label": "Fábrica",
+      "data": "Fábrica Folder",
+      "children": [{
+              "label": "Almoxarifado",
+              "data": "Suprimentos Folder",
+              "children": [{
+                "label": "Cadastro",
+                "data": "Cadastro Folder",
+                "children": [
+                  {"label": "cFBAL00 - Teste 1", "data": "assets/md/tela1.md", "type":"tela"},
+                  {"label": "cFBAL01 - Teste 2", "data": "assets/md/tela2.md", "type":"tela"},
+                  {"label": "cFBAL02 - Teste 3", "data": "assets/md/tela2.md", "type":"tela"},
+                  {"label": "cFBAL03 - Teste 4", "data": "assets/md/tela2.md", "type":"tela"}
+                ]
+              },
+              {
+                "label": "Movimento",
+                "data": "Movimento Folder",
+                "children": [
+                  {"label": "cFBAL200 - Teste 1", "data": "assets/md/tela1.md", "type":"tela"},
+                  {"label": "cFBAL201 - Teste 2", "data": "assets/md/tela2.md", "type":"tela"},
+                  {"label": "cFBAL202 - Teste 3", "data": "assets/md/tela2.md", "type":"tela"},
+                  {"label": "cFBAL203 - Teste 4", "data": "assets/md/tela2.md", "type":"tela"}
+                ]
+              },
+              {
+                "label": "Consulta",
+                "data": "Consulta Folder",
+                "children": [
+                  {"label": "cFBAL300 - Teste 1", "data": "assets/md/tela1.md", "type":"tela"},
+                  {"label": "cFBAL301 - Teste 2", "data": "assets/md/tela2.md", "type":"tela"},
+                  {"label": "cFBAL302 - Teste 3", "data": "assets/md/tela2.md", "type":"tela"},
+                  {"label": "cFBAL303 - Teste 4", "data": "assets/md/tela2.md", "type":"tela"}
+                ]
+              }]
+          },
+          {
+            "label": "Estoque",
+            "data": "Estoque Folder",
+            "children": [{
+              "label": "Cadastro",
+              "data": "Cadastro Folder",
+              "children": [
+                {"label": "cFBES100 - Teste 1", "data": "assets/md/tela1.md", "type":"tela"},
+                {"label": "cFBES101 - Teste 2", "data": "assets/md/tela2.md", "type":"tela"},
+                {"label": "cFBES102 - Teste 3", "data": "assets/md/tela2.md", "type":"tela"},
+                {"label": "cFBES103 - Teste 4", "data": "assets/md/tela2.md", "type":"tela"}
+              ]
+            },
+            {
+              "label": "Movimento",
+              "data": "Movimento Folder",
+              "children": [
+                {"label": "cFBES200 - Teste 1", "data": "assets/md/tela1.md", "type":"tela"},
+                {"label": "cFBES201 - Teste 2", "data": "assets/md/tela2.md", "type":"tela"},
+                {"label": "cFBES202 - Teste 3", "data": "assets/md/tela2.md", "type":"tela"},
+                {"label": "cFBES203 - Teste 4", "data": "assets/md/tela2.md", "type":"tela"}
+              ]
+            },
+            {
+              "label": "Consulta",
+              "data": "Consulta Folder",
+              "children": [
+                {"label": "cFBES300 - Teste 1", "data": "assets/md/tela1.md", "type":"tela"},
+                {"label": "cFBES301 - Teste 2", "data": "assets/md/tela2.md", "type":"tela"},
+                {"label": "cFBES302 - Teste 3", "data": "assets/md/tela2.md", "type":"tela"},
+                {"label": "cFBES303 - Teste 4", "data": "assets/md/tela2.md", "type":"tela"}
+              ]
+            }]
+        }]
+  }
+  ]
+}
